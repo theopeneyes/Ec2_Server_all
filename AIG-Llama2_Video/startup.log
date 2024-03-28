@@ -1,0 +1,50 @@
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG-Llama2_Video']
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:     Started reloader process [1792] using StatReload
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO:     Started server process [1801]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1801]
+INFO:     Stopping reloader process [1792]
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG-Llama2_Video']
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:     Started reloader process [1779] using StatReload
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO:     Started server process [1791]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG-Llama2_Video']
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:     Started reloader process [1793] using StatReload
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO:     Started server process [1850]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1850]
+INFO:     Stopping reloader process [1793]
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG-Llama2_Video']
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:     Started reloader process [1791] using StatReload
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO:     Started server process [1832]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

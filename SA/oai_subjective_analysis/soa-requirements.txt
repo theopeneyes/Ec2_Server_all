@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+Jinja2
+openai
+sentence_transformers==2.2.2
+urllib3==1.26.15
+mysql-connector-python
+python-multipart

@@ -1,0 +1,46 @@
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2529] using StatReload
+skip module injection for FusedLlamaMLPForQuantizedModel not support integrate without triton yet.
+INFO:     Started server process [2696]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2696]
+INFO:     Stopping reloader process [2529]
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2542] using StatReload
+skip module injection for FusedLlamaMLPForQuantizedModel not support integrate without triton yet.
+INFO:     Started server process [2694]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2694]
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2553] using StatReload
+skip module injection for FusedLlamaMLPForQuantizedModel not support integrate without triton yet.
+INFO:     Started server process [2707]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2707]
+INFO:     Stopping reloader process [2553]
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2533] using StatReload
+skip module injection for FusedLlamaMLPForQuantizedModel not support integrate without triton yet.
+INFO:     Started server process [2686]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

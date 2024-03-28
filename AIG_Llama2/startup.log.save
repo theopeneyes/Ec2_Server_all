@@ -1,0 +1,352 @@
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6955] using StatReload
+skip module injection for FusedLlamaMLPForQuantizedModel not support integrate without triton yet.
+INFO:     Started server process [6957]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+ERROR:    [Errno 98] Address already in use
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+ERROR:    [Errno 98] Address already in use
+INFO:     192.241.228.37:0 - "GET /autodiscover/autodiscover.json?@zdi/Powershell HTTP/1.0" 404 Not Found
+starting application
+starting application
+starting application
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+ERROR:    [Errno 98] Address already in use
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6957]
+INFO:     Stopping reloader process [6955]
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2542] using StatReload
+skip module injection for FusedLlamaMLPForQuantizedModel not support integrate without triton yet.
+INFO:     Started server process [2669]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     199.250.200.224:0 - "GET /getQuestions/656fa8a30e6486eaac027f32 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/AIG_Llama2/main.py", line 16, in AIG
+    file_type, final,text_content, type_of_question, _id= getText(user_id)
+  File "/home/ec2-user/AIG_Llama2/text.py", line 38, in getText
+    file_name = (resp["data"]["file_name"])
+KeyError: 'data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/applications.py", line 292, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/routing.py", line 192, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+starting application
+starting application
+starting application
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+ERROR:    [Errno 98] Address already in use
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6957]
+INFO:     Stopping reloader process [6955]
+starting application
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/AIG_Llama2']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2542] using StatReload
+skip module injection for FusedLlamaMLPForQuantizedModel not support integrate without triton yet.
+INFO:     Started server process [2669]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     199.250.200.224:0 - "GET /getQuestions/656fa8a30e6486eaac027f32 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/AIG_Llama2/main.py", line 16, in AIG
+    file_type, final,text_content, type_of_question, _id= getText(user_id)
+  File "/home/ec2-user/AIG_Llama2/text.py", line 38, in getText
+    file_name = (resp["data"]["file_name"])
+KeyError: 'data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/applications.py", line 292, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/routing.py", line 192, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/home/ec2-user/AIG_Llama2/main.py", line 113, in AIG
+    "id": _id,
+UnboundLocalError: local variable '_id' referenced before assignment
+INFO:     199.250.200.224:0 - "GET /getQuestions/656fa8a30e6486eaac027f32 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/AIG_Llama2/main.py", line 16, in AIG
+    file_type, final,text_content, type_of_question, _id= getText(user_id)
+  File "/home/ec2-user/AIG_Llama2/text.py", line 38, in getText
+    file_name = (resp["data"]["file_name"])
+KeyError: 'data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/applications.py", line 292, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/routing.py", line 192, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/home/ec2-user/AIG_Llama2/main.py", line 113, in AIG
+    "id": _id,
+UnboundLocalError: local variable '_id' referenced before assignment
+INFO:     199.250.200.224:0 - "GET /getQuestions/656fa8a30e6486eaac027f32 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/AIG_Llama2/main.py", line 16, in AIG
+    file_type, final,text_content, type_of_question, _id= getText(user_id)
+  File "/home/ec2-user/AIG_Llama2/text.py", line 38, in getText
+    file_name = (resp["data"]["file_name"])
+KeyError: 'data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-paackages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/applications.py", line 292, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/fastapi/routing.py", line 192, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/home/ec2-user/AIG_Llama2/main.py", line 113, in AIG
+    "id": _id,
+UnboundLocalError: local variable '_id' referenced before assignment
+INFO:     199.250.200.224:0 - "GET /getQuestions/656fa8a30e6486eaac027f32 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/AIG_Llama2/main.py", line 16, in AIG
+    file_type, final,text_content, type_of_question, _id= getText(user_id)
+  File "/home/ec2-user/AIG_Llama2/text.py", line 38, in getText
+    file_name = (resp["data"]["file_name"])
+KeyError: 'data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ec2-user/AIG_Llama2/environment/lib/python3.10/site-pa
